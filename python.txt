@@ -1,12 +1,12 @@
 
 >>> total_price = 0
->>> ages = [22, 21, 17, 32, 4, 28, 19, 8]
+>>> ages = [22, 23, 17, 32, 4, 26, 17, 8]
 >>> for age in ages:
 ...     if age >= 20:
-...         total_price = total_price + 8000
+...         total_price = total_price + 7000
 ...     elif age >= 10:
-...         total_price = total_price + 5000
+...         total_price = total_price + 4000
 ...     else:
 ...         total_price = total_price + 2500
-...     print('ÃÑ ÀÔÀå·á´Â', total_price, '¿øÀÔ´Ï´Ù.')
+...     print('ì´ ìž…ìž¥ë£ŒëŠ”', total_price, 'ì›ìž…ë‹ˆë‹¤.')
 >>>
